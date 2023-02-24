@@ -1,0 +1,146 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-weight: 400;
+}
+
+.jum-header {
+  background-color: #5e85bb;
+  text-align: center;
+}
+
+.savepic1,
+.savepic2,
+.savepic3,
+.savepic4 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.savepic1 {
+  background-image: url("savepic3.jpg");
+  min-height: 50%;
+}
+.savepic2 {
+  background-image: url("savepic2.jpg");
+  min-height: 400px;
+}
+.savepic3 {
+  background-image: url("savepic1.jpg");
+  min-height: 400px;
+}
+.savepic4 {
+  background-image: url("savepic4.jpg");
+  min-height: 400px;
+}
+
+.section-1,
+.section-2,
+.section-3 {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.on {
+  margin-left: 86px;
+}
+.in {
+  margin-left: 9px;
+}
+.time {
+  margin-left: 12px;
+}
+
+.percentOfCheck {
+  margin-right: 50px;
+}
+
+.goalAmount {
+  margin-right: 14px;
+}
+
+.checkAmount {
+  margin-left: 9px;
+}
+
+ .page {
+    display: none;
+  }
+
+  #home-page {
+    display: block;
+  }
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+label, input[type="submit"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: lightblue;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+#page3 {
+  padding: 20px;
+  text-align: center;
+}
+
+#notes {
+  width: 500px;
+  height: 300px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5e85bb;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav a:hover {
+  color: #f8b739;
+}
+
+.logo {
+  width: 15px;
+  height: 10px;
+}
